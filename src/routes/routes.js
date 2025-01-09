@@ -1,7 +1,6 @@
 const routes = {
     home: '/',
-    edit: '/edit/:id',
-    create: '/create',
+    introduce: '/gioithieu',
 };
 
 export const config = {

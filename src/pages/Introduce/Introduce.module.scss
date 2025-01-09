@@ -1,0 +1,80 @@
+.introduce-container {
+    position: relative;
+    color: white;
+
+    .container-content {
+        width: var(--default-layout-width);
+        margin: 60px auto 0 auto;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    .section-title {
+        font-size: 2.8rem;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        font-size: 2rem;
+    }
+
+    .skill-list {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 8px;
+            font-size: 1.4rem;
+        }
+    }
+
+    .project-item {
+        margin-bottom: 20px;
+
+        h3 {
+            font-size: 18px;
+        }
+
+        p {
+            margin-bottom: 8px;
+            font-size: 1.4rem;
+        }
+    }
+
+    .contact-list {
+        list-style: none;
+        padding: 0;
+
+        li {
+            margin-bottom: 8px;
+            font-size: 1.4rem;
+
+            a {
+                color: #ffeb3b;
+                text-decoration: none;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+.title {
+    font-size: 1.6rem;
+    color: var(--primary-button-color);
+}

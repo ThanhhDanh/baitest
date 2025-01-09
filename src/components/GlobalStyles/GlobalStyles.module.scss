@@ -1,11 +1,17 @@
 @import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary: linear-gradient(90deg, #0050ae 0%, #0391e8 100%);
-    --black: #000;
-    --white: #fff;
+    --white-color: #fff;
     --text-color: #333;
-    --text-primary: #0050ae;
+    --black-color: #000;
+    --primary-color: #283248;
+    --primary-button-color: #f14b23;
+
+    --font-family: 'Montserrat', serif;
+
+    --default-layout-header-height: 80px;
+    --default-layout-width: 1340px;
 }
 
 * {
@@ -20,7 +26,7 @@ html {
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-family);
     font-size: 1.6rem;
     line-height: 1.5;
     text-rendering: optimizespeed; //tối ưu hóa hiện font khi web chưa load kịp xuống

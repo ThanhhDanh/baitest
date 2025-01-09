@@ -1,14 +1,12 @@
 //Layouts
-import Create from '../pages/Create';
-import Edit from '../pages/Edit';
 import Home from '../pages/Home';
+import Introduce from '../pages/Introduce';
 import { config } from './routes';
 
 //public routes
 const publicRoutes = [
     { path: config.routes.home, component: Home },
-    { path: config.routes.edit, component: Edit },
-    { path: config.routes.create, component: Create },
+    { path: config.routes.introduce, component: Introduce },
 ];
 
 const privateRoutes = [];
